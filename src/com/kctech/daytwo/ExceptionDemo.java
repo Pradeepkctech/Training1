@@ -1,12 +1,7 @@
 package com.kctech.daytwo;
-//import java.util.InputMismatchException;
 import java.util.Scanner;
-
-import examples.Function;
-
 import java.util.InputMismatchException;
 
-import java.util.Scanner;
 
 class Function{
 	
