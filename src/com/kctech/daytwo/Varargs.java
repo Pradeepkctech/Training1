@@ -11,7 +11,7 @@ public class Varargs {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-      display("hi","Day two of traing");
+      display("hi","Day two of training");
 	}
 
 }
