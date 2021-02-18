@@ -1,5 +1,5 @@
 package com.kctech.daytwo;
-//import java.util.InputMismatchException;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 
@@ -27,7 +27,7 @@ public class ExceptionDemo {
 		
 		}
 		
-		catch(ArithmeticException ae)
+		catch(InputMismatchException ae)
 		{
 			System.out.println("the second no should not be zero");
 			

@@ -5,6 +5,7 @@ class Shape{
 	}
 }
 	class Circle extends Shape{
+		
 		void draw()
 		{
 			System.out.println("Drawn circle");
@@ -17,7 +18,7 @@ class Shape{
 public class Overload {
 
 	public static void main(String[] args) {
-		Circle c= new Circle();
+		Circle c= new  Circle();
 		c.drawing();
 		c.draw();// sub class method overridden the super class method
 		c.draw(10);// same as above
