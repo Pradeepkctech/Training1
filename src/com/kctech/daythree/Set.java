@@ -7,7 +7,7 @@ public class Set {
 
 	public static void main(String[] args) {
 		
-		HashSet<Object> hs = new HashSet<Object>();
+		HashSet<Integer> hs = new HashSet<Integer>();
 		hs.add(10);
 		hs.add(20);
 		hs.add(20);
@@ -18,6 +18,7 @@ public class Set {
 		
 		TreeSet <Object>ts= new TreeSet<Object>();
 		ts.addAll(hs);
+		
 		
 		ts.add(15);
 		ts.add(15);
