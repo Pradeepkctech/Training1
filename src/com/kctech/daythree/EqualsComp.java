@@ -38,10 +38,10 @@ public class EqualsComp {
 		//invoking hashCode() method  
 		int a=emp1.hashCode();  
 		int b=emp2.hashCode();  
-		boolean c=emp1==emp2;
+		//boolean c=emp1==emp2;
 		System.out.println("hashcode of emp1 = " + a);  
 		System.out.println("hashcode of emp2 = " + b);  
-		System.out.println("Comparing objects emp1 and emp2 = " + c);  
+		System.out.println("Comparing objects emp1 and emp2 = " + emp1.equals(emp2)/*c*/);  
 		
 	}
 }
